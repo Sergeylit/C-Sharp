@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Ввведите три числа");
-int[] number = new int[3];
+﻿Console.WriteLine("Ввведите трехзначное число");
+char[] number = new char[3];
 for(int i = 0; i < number.Length; i++)
-number[i] = Convert.ToInt32(Console.ReadLine());
+number[i] = Convert.ToChar(Console.Read());
 
 Console.WriteLine(number[1]);
