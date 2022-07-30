@@ -1,4 +1,4 @@
-﻿int[,,] numbers = new int[3, 3, 3];
+﻿int[,,] numbers = new int[2, 2, 2;
 int[] checkForRepeat = new int[27];
 
 Console.WriteLine("Элементы массива с индексами: ");
