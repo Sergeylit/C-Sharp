@@ -1,4 +1,4 @@
-﻿int[,,] numbers = new int[2, 2, 2;
+﻿int[,,] numbers = new int[2, 2, 2];
 int[] checkForRepeat = new int[27];
 
 Console.WriteLine("Элементы массива с индексами: ");
@@ -16,7 +16,6 @@ for (int i = 0, l = 0; i < numbers.GetLength(0) && l < checkForRepeat.Length; i+
 
                 if (numbers[i, j, k] == m)
                 {
-                    Console.WriteLine("tick");
                     goto equalsTo;
                 }
             }
