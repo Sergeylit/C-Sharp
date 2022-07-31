@@ -1,4 +1,4 @@
-﻿int[,] spiral = new int[10, 10];
+﻿int[,] spiral = new int[4, 4];
     for (int count = 1, i, j, position = 0; position < spiral.GetLength(0) / 2; position++)
     {
         for (j = position; j < spiral.GetLength(0) - position; j++)
